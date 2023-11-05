@@ -1,4 +1,4 @@
-@font-face {
+a@font-face {
     font-family: "Univers";
     src: url('/fonts/UniversLTStd.otf') format('opentype');
     font-weight: normal;
@@ -22,7 +22,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Univers", Geneva, sans-serif;
+    font-family: "Univers", Verdana, Geneva, sans-serif;
     background-color: rgb(253, 253, 253);
 }
 

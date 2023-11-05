@@ -87,8 +87,9 @@ section ul {
     list-style-type:lower-roman;
 }
 
-section p {
-    margin: auto 40px auto 0px;
+section{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section.question blockquote {

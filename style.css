@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Univers";
+    src: url('/fonts/UniversLTStd.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Univers Bold";
+    src: url('/fonts/UniversLTStd-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zurich Light Italic";
+    src: url('/fonts/Zurich\ Light\ Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Univers", Geneva, sans-serif;
+    background-color: rgb(253, 253, 253);
+}
+
+
+
+header {
+    background-color: rgb(254,234,0);
+    position: fixed;
+    width: 100%;
+    height: 61px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+header h3 {
+    padding: 0px 20px;
+    float: left;
+    z-index: 1;
+}
+
+nav {
+    padding: 19px 20px;
+    float: right;
+    z-index: 2;
+    vertical-align: 100%;
+    width: 150px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    vertical-align:top;
+}
+
+header a:hover {
+    font-style: italic;
+}
+
+
+
+
+section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+section#agenda {
+    margin-top: 10vh;
+}
+
+
+section ul {
+    list-style-type:lower-roman;
+}
+
+section p {
+    margin: auto 40px auto 0px;
+}
+
+section.question blockquote {
+    margin: 111px 40px 20px 40px;
+    width: auto;
+    text-align:left;
+    font-size:large;
+    border-bottom: 0px;
+    border-style: none none ridge none;
+}
+
+ section#agenda ul {
+    list-style-type: none;
+}
+
+section h2{
+    margin: 53px 20px 20px 40px;
+}
+
+div.event {
+    padding: 15px 0 ;
+}
+
+section img {
+    width: 7vh;
+    margin-top: px;
+    margin-left: 40px;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    float: right;
+    position: fixed;
+    bottom:2px;
+    z-index: 1;
+    right: 15px;
+}
+
+footer {
+    position: fixed;
+    padding: 0px 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-top: 2px;
+    border-style:solid none none none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black
+}
+
+footer div.hide {
+    float: left;
+} 
+
+.extraindent {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    header a {
+        font-size: 15px;
+    }
+    footer div.hide {
+        display: none;
+    }
+    footer {
+        font-size: 15px;
+    }
+}

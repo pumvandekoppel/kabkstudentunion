@@ -6,13 +6,6 @@ a@font-face {
 }
 
 @font-face {
-    font-family: "Univers Bold";
-    src: url('/fonts/UniversLTStd-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "Zurich Light Italic";
     src: url('/fonts/Zurich\ Light\ Italic.otf') format('opentype');
     font-weight: normal;

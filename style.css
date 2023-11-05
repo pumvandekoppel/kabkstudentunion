@@ -72,8 +72,8 @@ header a:hover {
 
 section {
     max-width: 1000px;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     margin-top: 10vh;
     margin-bottom: 100px;
 }

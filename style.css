@@ -104,7 +104,7 @@ div.event {
     padding: 15px 0 ;
 }
 
-section img {
+section img#badge {
     width: 8vh;
     margin-left: 40px;
     margin-right: 0;
@@ -115,6 +115,16 @@ section img {
     bottom:0px;
     z-index: 1;
     right: 0px;
+}
+
+section img#poster:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+    display: block;
+    width: auto;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .tekst {

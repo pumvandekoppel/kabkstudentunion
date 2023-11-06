@@ -29,6 +29,7 @@ body {
 mark {
     background-color: rgb(255,238,4);
     color: black;
+    font-size: 1.25em;
   }
 
 
@@ -76,35 +77,27 @@ section {
     max-width: 1000px;
     padding-left: 2vh;
     padding-right: 2vh;
-    margin: 16vh auto 100px auto;
+    margin: 122px auto 100px auto;
     box-sizing: border-box important!;
 }
 
-section#agenda {
-    margin-top: 10vh;
-}
-
-
 section#about ul {
     list-style-type:lower-roman;
-    margin-top: 7vh;
 }
 
-section.question blockquote {
-    margin: 141px 20px 20px 20px;
-    width: auto;
-    text-align:left;
-    font-size:large;
-    border-bottom: 0px;
-    border-style: none none ridge none;
-}
-
- section#agenda ul {
+section#agenda ul {
     list-style-type: none;
 }
 
+blockquote {
+    margin-right: 150px;
+    font-style: italic;
+}
+
+
+
 section h2{
-    margin: 53px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 div.event {
@@ -119,7 +112,7 @@ section img {
     padding-right: auto;
     float: right;
     position: fixed;
-    bottom:2px;
+    bottom:0px;
     z-index: 1;
     right: 0px;
 }
@@ -140,7 +133,7 @@ footer {
 }
 
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     color:black;
     border-top: 2px;
     border-style:solid none none none;
@@ -148,7 +141,19 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: black
+    color: black;
+}
+
+footer blockquote {
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    right:88px;
+    width: 396px;
+    max-width: 1000px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-right: 10px ;
 }
 
 footer div.hide {
@@ -158,6 +163,12 @@ footer div.hide {
 .extraindent {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+@media (max-width: 940px) {
+    footer blockquote {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -182,11 +193,11 @@ footer div.hide {
     }
     */
     footer {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     footer div.hide{
-        display: none !important;
+        display: none;
         background-color: aqua;
     }
 }

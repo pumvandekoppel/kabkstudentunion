@@ -74,9 +74,9 @@ header a:hover {
 
 
 section {
-    max-width: 1000px;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    max-width: 900px;
+    padding-left: 6vw;
+    padding-right: 6vw;
     margin: 122px auto 100px auto;
     box-sizing: border-box important!;
 }
@@ -117,13 +117,19 @@ section img#badge {
     right: 0px;
 }
 
-section img#poster {
-    max-width: 20vh;
+section img.poster {
+    width: 40vw;
+    max-width: 300px;
     transform-box:view-box;
 }
 
-section img#poster:hover, img#poster:active {
-    max-width: 40vh;
+section img.poster:hover, img.poster:active {
+    max-width: 70vw;
+    box-sizing: border-box;
+}
+
+section img#bouwhelm {
+    max-width: 150px;
 }
 
 .tekst {

@@ -119,14 +119,13 @@ section img#badge {
 
 section img.poster {
     width: 40vw;
-    max-width: 300px;
+    max-width: 200px;
     box-sizing:view-box;
 }
 
 section img.poster:hover, img.poster:active {
     width: 70vw;
-    max-width: 300px;
-    box-sizing: border-box;
+    max-width: 450px;
 }
 
 section img#bouwhelm {

@@ -120,11 +120,12 @@ section img#badge {
 section img.poster {
     width: 40vw;
     max-width: 300px;
-    transform-box:view-box;
+    box-sizing:view-box;
 }
 
 section img.poster:hover, img.poster:active {
-    max-width: 70vw;
+    width: 70vw;
+    max-width: 300px;
     box-sizing: border-box;
 }
 

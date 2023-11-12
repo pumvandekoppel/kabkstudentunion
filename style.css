@@ -1,3 +1,5 @@
+/* fonts stuff */
+
 @font-face {
     font-family: "Univers";
     src: url('/fonts/UniversLTStd.otf') format('opentype');
@@ -18,6 +20,9 @@
     font-weight: normal;
     font-style: italic;
 }
+/* */
+
+/*base rules */
 
 body {
     margin: 0;
@@ -31,8 +36,10 @@ mark {
     color: black;
     font-size: 1.3em;
   }
+/* */
 
 
+/* yellow header */
 
 header {
     background-color: rgb(255,238,4);
@@ -42,6 +49,7 @@ header {
     top: 0;
     left: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 header h3 {
@@ -69,11 +77,13 @@ header a {
 header a:hover {
     font-style: italic;
 }
+/* */
 
 
 
+/* general stuff */
 
-section {
+main {
     max-width: 900px;
     padding-left: 6vw;
     padding-right: 6vw;
@@ -81,30 +91,94 @@ section {
     box-sizing: border-box important!;
 }
 
-section#about ul {
+main ul {
     list-style-type:lower-roman;
 }
 
-section#agenda ul {
+main ul {
     list-style-type: none;
 }
 
-blockquote {
-    margin-right: 150px;
-    font-style: italic;
-}
 
-
-
-section h2{
+main h2{
     margin: 0px 20px 20px 20px;
 }
+
+.extraindent {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr {
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* */
+
+ /* agenda */
 
 div.event {
     padding: 15px 0 ;
 }
 
-section img#badge {
+main img.poster {
+    width: 40vw;
+    max-width: 200px;
+    box-sizing:view-box;
+}
+
+main img.poster:hover, img.poster:active {
+    width: 70vw;
+    max-width: 450px;
+}
+
+main img#bouwhelm {
+    max-width: 150px;
+}
+
+.list {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+/* */
+
+/* archive */
+
+section#archive {
+    margin-top: 61px;
+}
+
+section#archive {
+    filter: grayscale(100%);
+}
+
+section#archive mark {
+    background-color: rgb(222, 222, 214);
+    color: black;
+    font-size: 1.3em;
+}
+
+section#archive ul.archived-list {
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 0;
+
+}
+
+section#archive ul.archived-list p {
+    margin-bottom: 10px;
+}
+
+section#archive ul.nest {
+    list-style: disc;
+}
+/* */
+
+/* footer */
+
+main img#badge {
     width: 8vh;
     margin-left: 40px;
     margin-right: 0;
@@ -115,27 +189,6 @@ section img#badge {
     bottom:0px;
     z-index: 1;
     right: 0px;
-}
-
-section img.poster {
-    width: 40vw;
-    max-width: 200px;
-    box-sizing:view-box;
-}
-
-section img.poster:hover, img.poster:active {
-    width: 70vw;
-    max-width: 450px;
-}
-
-section img#bouwhelm {
-    max-width: 150px;
-}
-
-.tekst {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
 }
 
 footer {
@@ -174,11 +227,9 @@ footer blockquote {
 footer div.hide {
     float: left;
 } 
+/* */
 
-.extraindent {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+/* adjustments for mobile screens */
 
 @media (max-width: 940px) {
     footer blockquote {
@@ -215,3 +266,4 @@ footer div.hide {
         display: none;
     }
 }
+/* */

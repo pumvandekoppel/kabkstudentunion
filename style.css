@@ -91,17 +91,13 @@ main {
     box-sizing: border-box important!;
 }
 
-main ul {
-    list-style-type:lower-roman;
-}
-
-main ul {
-    list-style-type: none;
-}
-
-
 main h2{
     margin: 0px 20px 20px 20px;
+}
+
+main ul {
+    list-style-type:lower-roman;
+    list-style-type: none;
 }
 
 .extraindent {
@@ -143,6 +139,17 @@ main img#bouwhelm {
     box-sizing: border-box;
 }
 /* */
+
+/* about */
+
+ul.tekst {
+    padding-left: 0px;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+/* */
+
 
 /* archive */
 

@@ -254,6 +254,10 @@ footer div.hide {
         font-size: 15px;
     }
 
+    header {
+        height: 56px;
+    }
+
     /* 
     header div#logo {
         width: 100%;

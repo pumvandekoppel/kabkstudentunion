@@ -65,18 +65,24 @@ nav {
     float: right;
     z-index: 2;
     vertical-align: 100%;
-    width: 50px;
+    min-width: 50px;
 }
 
 header a {
     text-decoration: none;
     color: black;
     vertical-align:top;
+    padding: 20px;
 }
 
 header a:hover {
     font-style: italic;
 }
+
+div.small-menu a {
+    display: none;
+}
+
 /* */
 
 
@@ -91,8 +97,17 @@ main {
     box-sizing: border-box important!;
 }
 
-main h2{
+main h1 {
     margin: 0px 20px 20px 20px;
+}
+
+main h2 {
+    margin: 0px 20px 20px 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
 }
 
 main ul {
@@ -143,7 +158,9 @@ main img#bouwhelm {
 /* about */
 
 ul.tekst {
-    padding-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     list-style-type: lower-roman;
     list-style-position: inside;
 }
@@ -182,6 +199,17 @@ section#archive ul.nest {
     list-style: disc;
 }
 /* */
+
+/* menu */
+
+main#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+main#menu h1 {
+    padding-bottom: 40px;
+}
 
 /* footer */
 
@@ -265,6 +293,15 @@ footer div.hide {
         margin-top:35px;
     }
     */
+
+    div.wide-menu a{
+        display: none;
+    }
+
+    div.small-menu a {
+        display: inline;
+    }
+
     footer {
         font-size: 14px;
     }
@@ -272,5 +309,11 @@ footer div.hide {
     footer div.hide{
         display: none;
     }
+
+/* sign-up form */
+
+iframe {
+    height: 3000px;
 }
-/* */
+
+}

@@ -270,6 +270,27 @@ footer div.hide {
     footer blockquote {
         display: none;
     }
+
+    header a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main h2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .list {
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+
+    hr {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 600px) {

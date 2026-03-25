@@ -309,6 +309,11 @@ footer div.hide {
         height: 56px;
     }
 
+    iframe {
+    width: 50%;
+  
+    }
+
     /* 
     header div#logo {
         width: 100%;
@@ -340,7 +345,8 @@ footer div.hide {
 /* sign-up form */
 
 iframe {
-    height: 1000px;
+    height: 3000px;
+  
 }
 
 }

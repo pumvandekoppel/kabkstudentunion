@@ -309,11 +309,11 @@ footer div.hide {
         height: 56px;
     }
     div.event {
-    padding: 25px 50px 25px 50px ;
+    padding: 25px 10px 25px 10px ;
 }
 
     iframe {
-    width: 500px;
+    width:70%;
   
     }
 

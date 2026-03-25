@@ -310,6 +310,11 @@ footer div.hide {
     }
     div.event {
     padding: 25px 10px 25px 10px ;
+    }
+    iframe {
+    height: 3000px;
+  
+}
 }
 
 
@@ -347,6 +352,4 @@ footer div.hide {
 iframe {
     height: 3000px;
   
-}
-
 }

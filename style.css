@@ -308,9 +308,12 @@ footer div.hide {
     header {
         height: 56px;
     }
+    div.event {
+    padding: 25px 50px 25px 50px ;
+}
 
     iframe {
-    width: 50%;
+    width: 500px;
   
     }
 

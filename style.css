@@ -99,19 +99,7 @@ hr {
 
 
 /* general stuff */
-div#skit-container {
-    padding: 20px;
-    margin: 20px;
-    background-color: rgb(64, 118, 184);
-    border: 2px solid black;
-    border-radius: 50%;
-    display:inline-block;
-}
-img#survival-kit {
-    width: 100%;
-    max-width: 200px;
-    box-sizing:view-box;
-}
+
 
 main {
     max-width: 900px;
@@ -156,7 +144,14 @@ main#survival-kit ul.star {
 main#survival-kit ul.star ::before {
   content: "★";
 }
-
+div#skit-container {
+    margin: 20px;
+}
+img#survival-kit {
+    width: 100%;
+    max-width: 200px;
+    box-sizing:view-box;
+}
 
 
 /* */

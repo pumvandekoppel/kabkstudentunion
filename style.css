@@ -153,6 +153,10 @@ img#survival-kit {
     box-sizing:view-box;
 }
 
+main#survival-kit ul.line {
+    list-style-type: none;
+}
+
 
 /* */
 
